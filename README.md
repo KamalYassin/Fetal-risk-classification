@@ -39,6 +39,12 @@ generated from available clinical outcome measures, including pH, base excess,
 BDecf, and five-minute Apgar score. These outcome-derived labels are research
 targets and should not be treated as an original CTU-UHB annotation standard.
 
+The included processed CSV files contain only public PhysioNet record IDs,
+derived signal features, public clinical outcome fields, and the project's
+derived labels. They do not contain patient names, contact details, or local
+hospital identifiers. A `record_id` refers to the corresponding public
+PhysioNet record and is retained for reproducibility.
+
 ## Pipeline
 
 ```mermaid
@@ -275,6 +281,24 @@ Potential extensions include:
 - prospective assessment with clinician input; and
 - a clinician-facing interface with transparent quality warnings and model
   explanations.
+
+## Citation and Licensing
+
+Citation metadata for this repository is available in
+[`CITATION.cff`](CITATION.cff). Research using the CTU-UHB data must also cite
+the dataset publication and PhysioNet as requested on the
+[official dataset page](https://physionet.org/content/ctu-uhb-ctgdb/1.0.0/).
+
+The source dataset is distributed under the
+[Open Data Commons Attribution License 1.0](https://opendatacommons.org/licenses/by/1-0/).
+The processed data in this repository is derived from that source and retains
+its public record identifiers for reproducibility. Third-party Python packages
+remain subject to their respective licenses.
+
+No separate open-source license has been granted for the original source code
+in this repository. Public visibility permits inspection and academic review,
+but does not by itself grant permission to copy, modify, or redistribute that
+code.
 
 ## Disclaimer
 
