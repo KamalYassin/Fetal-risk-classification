@@ -1,0 +1,13 @@
+rule,class,count,percentage
+V1_current_rule,Normal,354,64.13
+V1_current_rule,Suspicious,171,30.98
+V1_current_rule,Pathological,27,4.89
+V2_stricter_pathological,Normal,354,64.13
+V2_stricter_pathological,Suspicious,182,32.97
+V2_stricter_pathological,Pathological,16,2.90
+V3_more_sensitive_pathological,Normal,354,64.13
+V3_more_sensitive_pathological,Suspicious,153,27.72
+V3_more_sensitive_pathological,Pathological,45,8.15
+V4_ph_apgar_only,Normal,370,67.03
+V4_ph_apgar_only,Suspicious,142,25.72
+V4_ph_apgar_only,Pathological,40,7.25
